@@ -14,7 +14,7 @@ Face Recognition in Python using OpenCV and face_recognition library.
 > 
 >> pip install -r requirements.txt
 ### 3. Final Step
-> Use the following code
+> Use the following command
 >
 >> python face_rec.py
 # Screenshots
