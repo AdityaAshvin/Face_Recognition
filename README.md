@@ -1,7 +1,7 @@
 # Face_Recognition
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/AdityaAshvin)
 ## Description
 Face Recognition in Python using OpenCV and face_recognition library.
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/AdityaAshvin)
 # Steps to run this in your local  machine
 ### 1. Install python
 >  https://realpython.com/installing-python/
@@ -19,6 +19,6 @@ Face Recognition in Python using OpenCV and face_recognition library.
 >> python face_rec.py
 # Screenshots
 ### Original image
-![screenshot](screenshots/screenshot2.JPG)
+![screenshot](screenshots/Screenshot2.JPG)
 ### Final image
 ![Screenshot2](screenshots/screenshot1.JPG)
