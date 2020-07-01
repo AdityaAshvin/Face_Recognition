@@ -86,6 +86,6 @@ def compare_faces(im):
             return face_names 
 
 
-print(compare_faces("test8.jpg"))
+print(compare_faces("test1.jpg"))
 
 
