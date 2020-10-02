@@ -1,3 +1,4 @@
+#Importing essenstial libraries for face recognition.
 import face_recognition as fr
 import os
 import cv2
@@ -15,10 +16,12 @@ def encoded_known_faces():
 
     for dirpath, dnames, fnames in os.walk("./known_faces"):
         for f in fnames:
-            if f.endswith(".jpg") or f.endswith(".png"):
+            if f.endswith(".jpg") or f.endswith(".png"):             #check if file is .png or .jpg
                 face = fr.load_image_file("known_faces/" + f)
                 encoding = fr.face_encodings(face)[0]
                 encoded[f.split(".")[0]] = encoding
+            else :                                                   #displays error message if the formate of image is file is not supported
+                print("Formate not supported")
 
     return encoded
 
